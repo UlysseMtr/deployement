@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "********** mise en production *********"
+cd www/Production
+unset GIT_DIR
+git pull origin main
