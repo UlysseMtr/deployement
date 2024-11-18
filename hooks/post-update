@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "********** mise en production *********"
-cd www
+cd /umetra/www
 unset GIT_DIR
 git pull origin main
